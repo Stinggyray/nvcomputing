@@ -5,3 +5,15 @@ nav {
   background: #eaebec;
   min-height: 65px;
 }
+
+@media only screen and (max-width: 767px) {
+    #navimg {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 387px) {
+    #navbrand {
+        font-size: .9rem;
+    }
+}

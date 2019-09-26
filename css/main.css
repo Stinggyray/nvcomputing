@@ -1,18 +1,24 @@
 body {
-  min-height: 1200px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
-nav {
-  background: #eaebec;
-  min-height: 65px;
+.navbar-custom {
+	font-family: 'Roboto Condensed', sans-serif;
+	background: #eaebec !important;
 }
 
-@media only screen and (max-width: 767px) {
+.navbar-brand img {
+	max-height: 30px;
+	padding-right: 15px;
+}
+
+@media only screen and (max-width: 351px) {
     #navimg {
         display: none;
     }
 }
 
-@media only screen and (max-width: 387px) {
+@media only screen and (max-width: 422px) {
     #navbrand {
         font-size: .9rem;
     }

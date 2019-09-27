@@ -3,7 +3,7 @@ body {
 }
 .navbar-custom {
 	font-family: 'Lato', sans-serif;
-	background: #eaebec !important;
+	background: #152d48 !important;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -12,13 +12,13 @@ body {
 	padding-right: 15px;
 }
 
-@media only screen and (max-width: 351px) {
+@media only screen and (max-width: 371px) {
     #navimg {
         display: none;
     }
 }
 
-@media only screen and (max-width: 422px) {
+@media only screen and (max-width: 449px) {
     #navbrand {
         font-size: .9rem;
     }

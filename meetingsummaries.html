@@ -39,16 +39,16 @@
          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav pull-right">
                <li class="nav-item">
-                  <a class="nav-link active" href="index.html">Home</a>
+                  <a class="nav-link" href="index.html">Home</a>
                </li>
                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                     aria-haspopup="true" aria-expanded="false">Resources</a>
+                  <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                      <a class="dropdown-item" href="https://drive.google.com/drive/folders/0B17dDOWfPSLwZ29aTUJqQ0Rxa28"
                         target="__blank">Team Resources | 18-19</a>
                      <div class="dropdown-divider"></div>
-                     <a class="dropdown-item" href="meetingsummaries.html">Meeting Summaries</a>
+                     <a class="dropdown-item active" href="meetingsummaries.html">Meeting Summaries</a>
                      <a class="dropdown-item" href="#">Online Judges (for practice)</a>
                   </div>
                </li>
@@ -150,7 +150,69 @@
       </div>
    </div>
    <!-- Modal Window End-->
-   <h1>test header boy</h1>
+   <div class="bg-light">
+      <div class="container py-5">
+         <div class="row h-100 align-items-center py-5">
+            <div class="col-lg-6">
+               <h2>Meeting Summaries</h2>
+               <p class="lead text-muted mb-0">Posted Every Thursday at 5:30 P.M.</p>
+               </p>
+            </div>
+            <div class="col-lg-6 d-none d-lg-block">
+               <img src="img/nvabout.png" alt="nvclublogo" class="img-fluid rounded">
+               <p class="text-muted mb-0 pt-5 text-right"><a
+                     href="https://drive.google.com/drive/folders/1VnV30pX47P6X4BI35q-9JpJggUhWg0o6"
+                     target="__blank">Google Drive Folder</a></p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="bg-white py-5">
+      <div class="container py-5">
+         <div class="row" id="card-list">
+            <!-- Card
+            <div class="col-md-4 mt-2">
+               <div class="card">
+                  <img class="card-img-top" src="img/neuqua.png" alt="Card Image">
+                  Body
+                  <div class="card-body">
+                     <h5 class="card-title border-bottom pb-3">Card title</h5>
+                     <p class="card-text-custom">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     <a href="#" class="btn btn-md btn-info float-right">Read more</a>
+                  </div>
+               </div>
+            </div> -->
+         </div>
+      </div>
+   </div>
 </body>
+
+<script type="text/javascript">
+   window.onload = function () {
+      var cards = [
+         {
+            "title": "Agenda 9/26",
+            "description": "Codeforces Registration",
+            "img": "agenda926",
+            "link": "https://docs.google.com/presentation/d/1B7c5TFj5bM03UEm1P5HLDoj3gzWRtzcaWIc0hQiGEzo/edit#slide=id.g6375b0a41e_0_0",
+         },
+         {
+            "title": "Agenda 9/19",
+            "description": "Registration and ACSL Team",
+            "img": "agenda919",
+            "link": "https://docs.google.com/presentation/d/1ZhoPvxPNKG2ctBEypKe5vpPQImJ-JNB6sBaPbIFoxp8/edit#slide=id.g6375b0a41e_0_0",
+         },
+         {
+            "title": "Agenda 9/12",
+            "description": "First Meeting of the Year!",
+            "img": "agenda912",
+            "link": "https://docs.google.com/presentation/d/1fiZ_e-4rm9CuWl_9iG0qHq-YJpLc0lL_WHZmECFiNhY/edit#slide=id.p",
+         },
+      ];
+      cards.forEach(function (element) {
+         document.getElementById("card-list").innerHTML += '<div class="col-md-4 mt-2"><div class="card"><img class="card-img-top" src="img/' + element.img + '.png" alt="Card Image"><div class="card-body"><h5 class="card-title border-bottom pb-3">' + element.title + '</h5><p class="card-text-custom">' + element.description + '</p><a href="' + element.link + '" class="btn btn-md btn-info float-right" target="__blank">Read more</a></div></div></div>';
+      })
+   }
+</script>
 
 </html>

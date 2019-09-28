@@ -43,3 +43,7 @@ body {
     text-align: center; 
     bottom: -35px !important;
 }
+
+.footer {
+    font-size: .8rem;
+}

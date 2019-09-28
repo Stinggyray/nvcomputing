@@ -1,6 +1,6 @@
 window.onload = function () {
-
-   var cards = [
+   //New Cards Go On Top
+   var cards = [  
       {
          "title": "Agenda 9/26",
          "description": "Codeforces Registration",
@@ -46,6 +46,16 @@ window.onload = function () {
    `;
 
    cards.forEach(function (element) {
-      document.getElementById("card-list").innerHTML += '<div class="col-md-4 mt-2"><div class="card "><img class="card-img-top" src="img/' + element.img + '.png" alt="Card Image"><div class="card-body"><h5 class="card-title border-bottom pb-3">' + element.title + '</h5><p class="card-text-custom">' + element.description + '</p><a href="' + element.link + '" class="btn btn-md btn-info float-right" target="__blank">Read more</a></div></div></div>';
+      document.getElementById("card-list").innerHTML += `
+      <div class="col-md-4 mt-2">
+         <div class="card ">
+            <a href="`+ element.link +`" target="__blank"><img class="card-img-top" src="img/` + element.img + `.png" alt="Card Image"></a>
+            <div class="card-body">
+               <h5 class="card-title border-bottom pb-3">` + element.title + `</h5>
+               <p class="card-text-custom">` + element.description + `</p>
+               <a href="` + element.link + `" class="btn btn-md btn-info float-right" target="__blank">Read more</a>
+            </div>
+         </div>
+      </div>`;
    })
 }

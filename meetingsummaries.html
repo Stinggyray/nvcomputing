@@ -37,14 +37,14 @@
                      <a class="dropdown-item active" href="meetingsummaries.html">Meeting Summaries</a>
                      <div class="dropdown-divider"></div>
                      <a class="dropdown-item" href="https://drive.google.com/drive/folders/0B17dDOWfPSLwZ29aTUJqQ0Rxa28" target="__blank">Team Resources | 18-19</a>
-                     <a class="dropdown-item" href="#">Online Judges (for practice)</a>
+                     <a class="dropdown-item" href="">Online Judges (for practice)</a>
                   </div>
                </li>
                <li class="nav-item">
                   <a class="nav-link" href="about.html">About</a>
                </li>
                <li class="nav-item">
-                  <a href="#contactmodal" data-toggle="modal" data-target="#contactmodal" class="nav-link">Contact</a>
+                  <a class="nav-link disabled" href="">Contact</a>
                </li>
             </ul>
          </div>
@@ -55,85 +55,6 @@
 </head>
 
 <body>
-   <!-- Modal Window for Nav Bar-->
-   <div class="modal fade" id="contactmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-         <div class="modal-content">
-            <div class="modal-header">
-               <h5 class="modal-title" id="exampleModalLabel">Contact Form</h5>
-               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            </div>
-            <div class="modal-body">
-               <form id="contact-form" method="post" action="php/contact.php" role="form">
-                  <div class="messages"></div>
-                  <div class="controls">
-                     <div class="row">
-                        <div class="col-md-6">
-                           <div class="form-group">
-                              <label for="form_name">First Name *</label>
-                              <input id="form_name" type="text" name="name" class="form-control" placeholder="John *" required="required" data-error="First Name is required.">
-                              <div class="help-block with-errors"></div>
-                           </div>
-                        </div>
-                        <div class="col-md-6">
-                           <div class="form-group">
-                              <label for="form_lastname">Last Name *</label>
-                              <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Bull *" required="required" data-error="Last Name is required.">
-                              <div class="help-block with-errors"></div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-md-6">
-                           <div class="form-group">
-                              <label for="form_email">Reply Email *</label>
-                              <input id="form_email" type="email" name="email" class="form-control" placeholder="example@email.com" required="required" data-error="Valid email is required.">
-                              <div class="help-block with-errors"></div>
-                           </div>
-                        </div>
-                        <div class="col-md-6">
-                           <div class="form-group">
-                              <label for="form_need">Please specify your need *</label>
-                              <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
-                                 <option value="General Inquiry">General Inquiry</option>
-                                 <option value="Problem or Report">Problem or Report</option>
-                                 <option value="Other">Other</option>
-                              </select>
-                              <div class="help-block with-errors"></div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-md-12">
-                           <div class="form-group">
-                              <label for="form_message">Message *</label>
-                              <textarea id="form_message" name="message" class="form-control" placeholder="Hello," rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                              <div class="help-block with-errors"></div>
-                           </div>
-                        </div>
-                        <div class="col-md-12">
-                           <input type="submit" class="btn btn-success btn-send" value="Send message">
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-md-12">
-                           <p class="text-muted">
-                              <strong>*</strong> These fields are required.
-                        </div>
-                     </div>
-                  </div>
-               </form>
-               <div>
-                  <p><a href="about.html#contact">Or you can also contact one of us directly.</a></p>
-               </div>
-            </div>
-            <div class="modal-footer">
-               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- Modal Window End-->
    <div class="bg-light">
       <div class="container py-5">
          <div class="row h-100 align-items-center py-5">

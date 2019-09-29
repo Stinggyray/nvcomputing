@@ -69,83 +69,80 @@
    <div class="bg-white pt-5">
       <div class="container py-5">
          <div class="row align-items-center mb-5">
-            <div class="col-lg-5 px-5 mx-auto"><img src="img/objective.png" alt="Club Objectives" class="img-fluid mb-4 mb-lg-0"></div>
-            <div class="col-lg-6 order-2 order-lg-1">
-               <h1 class="font-weight-light display-4">Club Objectives</h1>
-               <div class="mb-4">
-                  <p class="lead text-capitalize">Create a community for open discussion of competitive programming.</p>
-                  <div class="ml-3 text-muted">
-                     <li>Former and Current <a href="http://www.usaco.org/" target="_blank">USACO</a> Contests.</li>
-                     <li>Former and Current <a href="http://www.acsl.org/" target="_blank">ACSL</a> Problems at All Levels.</li>
-                     <li>Online Competitions at <a href="http://codeforces.com/" target="_blank">Codeforces</a>, etc. </li>
-                     <li>General Problem-Solving Techniques, Algorithms, and Data Structures.</li>
+            <div class="col-lg-5 px-5 mx-auto">
+               <form id="contact-form" method="post" action="contact.php" role="form">
+                  <div class="controls">
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <div class="form-group">
+                              <label for="form_name">Firstname *</label>
+                              <input id="form_name" type="text" name="name" class="form-control" placeholder="John" required="required" data-error="Firstname is required.">
+                              <div class="help-block with-errors"></div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="form-group">
+                              <label for="form_lastname">Lastname *</label>
+                              <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Bull" required="required" data-error="Lastname is required.">
+                              <div class="help-block with-errors"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <div class="form-group">
+                              <label for="form_email">Email *</label>
+                              <input id="form_email" type="email" name="email" class="form-control" placeholder="neuqua@nvhs.com" required="required" data-error="Valid email is required.">
+                              <div class="help-block with-errors"></div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="form-group">
+                              <label for="form_need">Select Topic *</label>
+                              <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                 <option value="General Questions">General Inquiry</option>
+                                 <option value="Team/Competition Related">Team/Competition Related</option>
+                                 <option value="Other">Other</option>
+                              </select>
+                              <div class="help-block with-errors"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-12">
+                           <div class="form-group">
+                              <label for="form_message">Message *</label>
+                              <textarea id="form_message" name="message" class="form-control" placeholder="Message..." rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                              <div class="help-block with-errors"></div>
+                           </div>
+                        </div>
+                        <div class="col-md-12">
+                           <input type="submit" class="btn btn-success btn-send" value="Send message">
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-12">
+                           <p class="text-muted">
+                              <strong>*</strong> These fields are required.</p>
+                        </div>
+                     </div>
                   </div>
-               </div>
+               </form>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-1">
+               <h1 class="font-weight-light display-5">Contact Emails</h1>
                <div class="mb-4">
-                  <p class="lead text-capitalize">Manage Neuqua’s ACSL teams and potential local competitions nearby. </p>
+                  <div class="text-muted">
+                     <h6 class="my-3">Joseph Koos (Club Sponsor) | <a href="mailto: joe_koos@ipsd.org">joe_koos@ipsd.org</a></h6>
+                     <h6 class="my-3">Jonah Liu (Captain) | <a href="mailto: jonah1068@gmail.com">jonah1068@gmail.com</a></h6>
+                     <h6 class="my-3">Cecilia Chen (Captain) | <a href="mailto: contact@nvcomputing.com">contact@nvcomputing.com</a></h6>
+                     <h6 class="my-3">Shivansh Gupta (Captain) | <a href="mailto: contact@nvcomputing.com">contact@nvcomputing.com</a></h6>
+                     <h6 class="my-3">Jonathan Li (Captain) | <a href="mailto: contact@nvcomputing.com">contact@nvcomputing.com</a></h6>
+                  </div>
                </div>
                <div>
-                  <p class="text-muted text-right"><a href="#contactmodal" data-toggle="modal" data-target="#contactmodal">Questions? Send Us An Email!</a></p>
+                  <p class="text-muted">Feel free to use our forum or copy the person's email.</p>
                </div>
-            </div>
-         </div>
-      </div>
-      <div class="bg-light py-5">
-         <div class="container py-5">
-            <div class="row mb-4">
-               <div class="col-lg-5">
-                  <a name="contact"></a>
-                  <h2 class="font-weight-light font-weight-bold">Club Leaders</h2>
-               </div>
-            </div>
-            <div class="row text-center">
-               <!-- Team item-->
-               <div class="col-xl-3 mb-5 container-fluid">
-                  <div class="bg-white rounded shadow-sm pt-5 pb-3 px-4">
-                     <img src="img/avaempty.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                     <h5 class="mb-0">Joseph Koos</h5>
-                     <span class="small text-uppercase text-muted">Club Sponsor</span>
-                  </div>
-               </div>
-               <!-- End-->
-            </div>
-            <div class="row text-center">
-               <!-- Team item-->
-               <div class="col-xl-3 col-sm-6 mb-5">
-                  <div class="bg-white rounded shadow-sm pt-5 pb-3 px-4">
-                     <img src="img/avaempty.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                     <h5 class="mb-0">Cecilia Chen</h5>
-                     <span class="small text-uppercase text-muted">Captain (Sr.)</span>
-                  </div>
-               </div>
-               <!-- End-->
-               <!-- Team item-->
-               <div class="col-xl-3 col-sm-6 mb-5">
-                  <div class="bg-white rounded shadow-sm pt-5 pb-3 px-4">
-                     <img src="img/avaempty.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                     <h5 class="mb-0">Shivansh Gupta</h5>
-                     <span class="small text-uppercase text-muted">Captain (Sr.)</span>
-                  </div>
-               </div>
-               <!-- End-->
-               <!-- Team item-->
-               <div class="col-xl-3 col-sm-6 mb-5">
-                  <div class="bg-white rounded shadow-sm pt-5 pb-3 px-4">
-                     <img src="img/avaempty.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                     <h5 class="mb-0">Jonathan Li</h5>
-                     <span class="small text-uppercase text-muted">Captain (Sr.)</span>
-                  </div>
-               </div>
-               <!-- End-->
-               <!-- Team item-->
-               <div class="col-xl-3 col-sm-6 mb-5">
-                  <div class="bg-white rounded shadow-sm pt-5 pb-3 px-4">
-                     <img src="img/avaempty.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                     <h5 class="mb-0">Jonah Liu</h5>
-                     <span class="small text-uppercase text-muted">Captain (Sr.)</span>
-                  </div>
-               </div>
-               <!-- End-->
             </div>
          </div>
       </div>

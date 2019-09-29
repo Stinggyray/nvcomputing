@@ -1,0 +1,5 @@
+======== TO-DO LIST =========
+1) Announcements/News Page
+2) T-Shirt Order Form
+3) Find a better place for ACSL Problems (?)
+4) Create better thumbnails for carousel

@@ -1,6 +1,7 @@
 body {
-	font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
+
 .navbar-custom {
 	font-family: 'Raleway', sans-serif;
 	background: #152d48 !important;
@@ -10,6 +11,15 @@ body {
 .navbar-brand img {
 	max-height: 30px;
 	padding-right: 15px;
+}
+
+.background-code {
+    background-image: url(codewall.jpg);
+}
+
+.home-imgs {
+    height: auto;
+    width: 750px;
 }
 
 @media only screen and (max-width: 469px) {

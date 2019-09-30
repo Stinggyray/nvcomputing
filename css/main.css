@@ -14,12 +14,21 @@ body {
 }
 
 .background-code {
-    background-image: url(../img/codewall.jpg);
+    background-image: url(../img/codewall.gif);
 }
 
-.home-imgs {
-    height: auto;
-    width: 750px;
+.large-image {
+    width: 450px;
+}
+
+@media only screen and (max-width: 991px) {
+    .large-image {
+        width: 200px !important;
+    }
+}
+
+.description-text {
+    font-size: 1rem !important;
 }
 
 @media only screen and (max-width: 469px) {

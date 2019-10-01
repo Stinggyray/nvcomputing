@@ -23,15 +23,10 @@ body {
 
 .background-code {
     background-image: url('../img/background-head.jpg');
-    background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-repeat: no-repeat;
     background-size: cover;
-    height:100%;
-    width:100%; 
+    background-position: 100% top;
+    background-attachment: fixed;
 }
 
 .large-image {

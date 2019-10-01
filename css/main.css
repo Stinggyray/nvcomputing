@@ -47,6 +47,11 @@ body {
     #navimg {
         display: none;
     }
+
+    .background-code {
+        display: inline !important;
+        background-image: none !important;
+    }
 }
 
 @media only screen and (max-width: 402px) {

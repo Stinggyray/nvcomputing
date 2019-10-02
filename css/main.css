@@ -112,6 +112,17 @@ body {
     }
 }
 
+.full-width-image {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+  }
+
+.full-width-image img {
+    width: 100%;
+  }
+
 .footer {
     font-size: .8rem;
 }

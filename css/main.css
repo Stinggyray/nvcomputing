@@ -43,7 +43,7 @@ body {
     font-size: 1rem !important;
 }
 
-@media only screen and (max-width: 469px) {
+@media (max-width: 469px) {
     #navimg {
         display: none;
     }
@@ -51,6 +51,10 @@ body {
     .background-code {
         display: inline !important;
         background-image: none !important;
+    }
+
+    .index-carousel {
+        padding: 0 !important;
     }
 }
 
@@ -96,6 +100,16 @@ body {
     color: #fff;
     text-align: center; 
     bottom: -35px !important;
+}
+
+.index-carousel {
+    padding: 4rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .index-carousel {
+        padding: 2rem;
+    }
 }
 
 .footer {

@@ -43,7 +43,7 @@ body {
     font-size: 1rem !important;
 }
 
-@media (max-width: 469px) {
+@media (max-width: 372px) {
     #navimg {
         display: none;
     }
@@ -56,13 +56,13 @@ body {
     }
 }
 
-@media only screen and (max-width: 402px) {
+@media (max-width: 991px) {
     #navbrand {
         font-size: .9rem;
     }
 }
 
-@media only screen and (max-width: 319px) {
+@media (max-width: 319px) {
     #navbrand {
         font-size: .6rem;
     }

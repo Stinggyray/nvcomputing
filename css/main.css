@@ -48,16 +48,11 @@ body {
         display: none;
     }
 
-    .background-code {
-        display: inline !important;
-        background-image: none !important;
-    }
-
     .index-carousel {
-        padding-top: 5% !important;
+        padding-top: 2.5% !important;
         padding-right: 0 !important;
         padding-left: 0 !important;
-        padding-bottom: 0 !important;
+        padding-bottom: 2.5% !important;
     }
 }
 
@@ -69,7 +64,7 @@ body {
 
 @media only screen and (max-width: 319px) {
     #navbrand {
-        font-size: .7rem;
+        font-size: .6rem;
     }
 }
 .card-text-custom {

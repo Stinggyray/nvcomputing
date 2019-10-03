@@ -62,11 +62,18 @@ body {
     }
 }
 
-@media (max-width: 319px) {
+@media (max-width: 306px) {
+    #navbrand {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 281px) {
     #navbrand {
         font-size: .6rem;
     }
 }
+
 .card-text-custom {
     font-family: 'Raleway', sans-serif;
 }
@@ -107,6 +114,17 @@ body {
 @media only screen and (max-width: 767px) {
     .index-carousel {
         padding: 2rem;
+    }
+    #news-title {
+        font-size: 1rem;
+    }
+    
+    #news-p-lead {
+        font-size: .9rem;
+    }
+    
+    #news-p {
+        font-size: .8rem;
     }
 }
 

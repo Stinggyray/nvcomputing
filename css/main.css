@@ -22,11 +22,10 @@ body {
 }
 
 .background-code {
-    background-image: url('../img/background-head.jpg');
+    background-image: url('../img/background-carousel.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100% top;
-    background-attachment: fixed;
+    background-position: center center;
 }
 
 .large-image {
@@ -55,6 +54,16 @@ body {
         padding-bottom: 2.5% !important;
     }
 }
+@media (max-width: 450px) {
+
+    .index-carousel {
+        padding-top: 5% !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        padding-bottom: 5% !important;
+    }
+}
+
 
 @media (max-width: 991px) {
     #navbrand {

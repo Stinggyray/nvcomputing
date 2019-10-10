@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <!-- Main CSS -->
+   <link rel="stylesheet" href="css/main.css">
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <link href="https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap" rel="stylesheet">
+   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+   <link rel="manifest" href="img/site.webmanifest">
+   <title>Neuqua Valley Computing Team | Meeting Summaries</title>
+</head>
+
+<body>
+   <!-- End most top info -->
+   <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-dark top-navbar sticky-top navbar-custom" data-toggle="sticky-onscroll">
+      <div class="container">
+         <a class="navbar-brand" id="navbrand" href="index.html"><img src="img/neuqua.png" alt="Neuqua Logo" id="navimg" class="img-fluid">Neuqua Valley Computing Team</a>
+         <button class="navbar-toggler navbar-toggler-custom" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav pull-right">
+               <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item active" href="meetingsummaries.html">Meeting Summaries</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="https://drive.google.com/drive/folders/0B17dDOWfPSLwZ29aTUJqQ0Rxa28" target="__blank">Team Resources | 18-19</a>
+                     <a class="dropdown-item" href="">Online Judges (for practice)</a>
+                  </div>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="news.html">News</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+   <!-- End top header-->
+   <div class="bg-light">
+      <div class="container py-5">
+         <div class="row h-100 align-items-center py-5">
+            <div class="col-lg-6 text-center">
+               <h2>Meeting Summaries</h2>
+               <p class="lead text-muted mb-0">Posted Every Thursday at 5:30 P.M.</p>
+               </p>
+            </div>
+            <div class="col-lg-6 d-none d-md-block">
+               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                     <li data-target="Latest Card" data-slide-to="0" class="active"></li>
+                     <li data-target="2nd Latest Card" data-slide-to="1"></li>
+                     <li data-target="3rd Latest Card" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner" id="carouselID"></div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Next</span>
+                  </a>
+               </div>
+               <p class="text-muted mb-0 pt-5 text-right"><a href="https://drive.google.com/drive/folders/1VnV30pX47P6X4BI35q-9JpJggUhWg0o6" target="__blank">Google Drive Folder</a></p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="bg-white py-5">
+      <div class="container">
+         <div class="row" id="card-list">
+            <!-- Cards -->
+         </div>
+      </div>
+   </div>
+   <div class="footer bg-light">
+      <div class="text-center py-3">&copy;2019 Copyright: <a href="https://www.nvcomputing.com"> NVComputing.com</a></div>
+   </div>
+</body>
+<script src="js/meetingsummaries.js"></script>
+
+</html>

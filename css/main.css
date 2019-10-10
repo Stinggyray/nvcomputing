@@ -1,0 +1,151 @@
+html * {
+    outline: 0 !important;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-custom {
+	font-family: 'Raleway', sans-serif;
+	background: #152d48 !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-toggler-custom {
+    font-size: .7rem !important;
+}
+
+.navbar-brand img {
+	max-height: 30px;
+	padding-right: 15px;
+}
+
+.background-code {
+    background-image: url(../img/background-carousel.png);
+    background-size: contain;
+    background-position: center;
+}
+
+.large-image {
+    width: 450px;
+}
+
+@media only screen and (max-width: 991px) {
+    .large-image {
+        width: 200px !important;
+    }
+}
+
+.description-text {
+    font-size: 1rem !important;
+}
+
+@media (max-width: 372px) {
+    #navimg {
+        display: none;
+    }
+
+    .index-carousel {
+        padding-top: 2.5% !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        padding-bottom: 2.5% !important;
+    }
+}
+@media (max-width: 450px) {
+
+    .index-carousel {
+        padding-top: 5% !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        padding-bottom: 5% !important;
+    }
+}
+
+
+@media (max-width: 991px) {
+    #navbrand {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 306px) {
+    #navbrand {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 281px) {
+    #navbrand {
+        font-size: .6rem;
+    }
+}
+
+.card-text-custom {
+    font-family: 'Raleway', sans-serif;
+}
+
+#carousel-indicators-custom .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+#carousel-indicators-custom .carousel-indicators {
+    bottom: -10px;
+}
+
+#carousel-indicators-custom .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fed900' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+#carousel-indicators-custom .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fed900' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-caption-custom {
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    z-index: 10;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center; 
+    bottom: -35px !important;
+}
+
+.index-carousel {
+    padding: 4rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .index-carousel {
+        padding: 2rem;
+    }
+    #news-title {
+        font-size: 1rem;
+    }
+    
+    #news-p-lead {
+        font-size: .9rem;
+    }
+    
+    #news-p {
+        font-size: .8rem;
+    }
+}
+
+.footer {
+    font-size: .8rem;
+}
+
+.banner {
+    width: 100%;
+    display: block;
+}
+
+.banner > .banner-img {
+    width: 100%;
+    display: block;
+}

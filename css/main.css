@@ -23,6 +23,8 @@ body {
 
 .background-code {
     background-image: url(../img/background-carousel.png);
+    background-size: contain;
+    background-position: center;
 }
 
 .large-image {

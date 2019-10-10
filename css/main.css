@@ -22,10 +22,7 @@ body {
 }
 
 .background-code {
-    background-image: url('../img/background-carousel.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-image: url(../img/background-carousel.png);
 }
 
 .large-image {

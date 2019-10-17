@@ -42,10 +42,6 @@ body {
 }
 
 @media (max-width: 372px) {
-    #navimg {
-        display: none;
-    }
-
     .index-carousel {
         padding-top: 2.5% !important;
         padding-right: 0 !important;

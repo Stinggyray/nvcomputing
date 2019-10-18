@@ -2,7 +2,13 @@ window.onload = function () {
    //New Cards Go On Top
    var cards = [  
       {
-         "title": "Agenda 9/26",
+         "title": "Agenda 10/17",
+         "description": "Fee Collection for Contest",
+         "img": "agenda1017",
+         "link": "https://docs.google.com/presentation/d/1pIx1ggAZQN1aF9r97dwhCinaHcQitX-U296bjy2pSlk/edit#slide=id.g651eec94f2_0_0",
+      },
+      {
+         "title": "Agenda 10/10",
          "description": "Codeforces Registration",
          "img": "agenda926",
          "link": "https://docs.google.com/presentation/d/1B7c5TFj5bM03UEm1P5HLDoj3gzWRtzcaWIc0hQiGEzo/edit#slide=id.g6375b0a41e_0_0",

@@ -2,6 +2,11 @@ window.onload = function () {
    //New Cards Go On Top
    var cards = [  
       {
+         "title": "Agenda 10/24",
+         "description": "10/24 Agenda",
+         "img": "agendanone",
+         "link": "https://drive.google.com/drive/folders/1JMPmSETWBihRM0-6KlEnV0D9FaqzaQ3I",
+      },{
          "title": "Agenda 10/17",
          "description": "Fee Collection for Contest",
          "img": "agenda1017",

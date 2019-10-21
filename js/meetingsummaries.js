@@ -2,28 +2,38 @@ window.onload = function () {
    //New Cards Go On Top
    var cards = [  
       {
+         "title": "Agenda 10/24",
+         "description": "10/24 Agenda",
+         "img": "agendanone",
+         "link": "https://drive.google.com/drive/folders/1JMPmSETWBihRM0-6KlEnV0D9FaqzaQ3I",
+         "option": "display:none !important",
+      },{
          "title": "Agenda 10/17",
          "description": "Fee Collection for Contest",
          "img": "agenda1017",
          "link": "https://docs.google.com/presentation/d/1pIx1ggAZQN1aF9r97dwhCinaHcQitX-U296bjy2pSlk/edit#slide=id.g651eec94f2_0_0",
+         "option": "",
       },
       {
          "title": "Agenda 10/10",
          "description": "Codeforces Registration",
          "img": "agenda926",
          "link": "https://docs.google.com/presentation/d/1B7c5TFj5bM03UEm1P5HLDoj3gzWRtzcaWIc0hQiGEzo/edit#slide=id.g6375b0a41e_0_0",
+         "option": "",
       },
       {
          "title": "Agenda 9/19",
          "description": "Registration and ACSL Team",
          "img": "agenda919",
          "link": "https://docs.google.com/presentation/d/1ZhoPvxPNKG2ctBEypKe5vpPQImJ-JNB6sBaPbIFoxp8/edit#slide=id.g6375b0a41e_0_0",
+         "option": "",
       },
       {
          "title": "Agenda 9/12",
          "description": "First Meeting of the Year!",
          "img": "agenda912",
          "link": "https://docs.google.com/presentation/d/1fiZ_e-4rm9CuWl_9iG0qHq-YJpLc0lL_WHZmECFiNhY/edit#slide=id.p",
+         "option": "",
       },
    ];
 
@@ -53,7 +63,7 @@ window.onload = function () {
 
    cards.forEach(function (element) {
       document.getElementById("card-list").innerHTML += `
-      <div class="col-md-4 mt-2">
+      <div class="col-md-4 mt-2" style="` + option + `">
          <div class="card ">
             <a href="`+ element.link +`" target="__blank"><img class="card-img-top" src="img/` + element.img + `.png" alt="Card Image"></a>
             <div class="card-body">

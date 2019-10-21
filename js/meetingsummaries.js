@@ -1,13 +1,13 @@
 window.onload = function () {
    //New Cards Go On Top
-   var cards = [  
+   var cards = [
       {
          "title": "Agenda 10/24",
          "description": "10/24 Agenda",
          "img": "agendanone",
          "link": "https://drive.google.com/drive/folders/1JMPmSETWBihRM0-6KlEnV0D9FaqzaQ3I",
          "show": "display: none",
-      },{
+      }, {
          "title": "Agenda 10/17",
          "description": "Fee Collection for Contest",
          "img": "agenda1017",
@@ -37,7 +37,32 @@ window.onload = function () {
       },
    ];
 
-   document.getElementById("carouselID").innerHTML += `
+   if (cards[0].show != "") {
+      document.getElementById("carouselID").innerHTML += `
+   <div class="carousel-item active">
+      <a href="`+ cards[1].link + `" target="__blank"><img class="d-block w-100" src="img/` + cards[1].img + `.png" alt="First Slide"></a>
+      <div class="d-none d-md-block pt-2 carousel-caption-custom">
+         <h3>`+ cards[1].title + `</h3>
+         <p>`+ cards[1].description + `</p>
+      </div>
+   </div>
+   <div class="carousel-item">
+      <a href="`+ cards[2].link + `" target="__blank"><img class="d-block w-100" src="img/` + cards[2].img + `.png" alt="Second Slide"></a>
+      <div class="d-none d-md-block pt-2 carousel-caption-custom">
+         <h3>`+ cards[2].title + `</h3>
+         <p>`+ cards[2].description + `</p>
+      </div>
+   </div>
+   <div class="carousel-item">
+      <a href="`+ cards[3].link + `" target="__blank"><img class="d-block w-100" src="img/` + cards[3].img + `.png" alt="Third Slide"></a>
+      <div class="d-none d-md-block pt-2 carousel-caption-custom">
+         <h3>`+ cards[3].title + `</h3>
+         <p>`+ cards[3].description + `</p>
+      </div>
+   </div>
+   `;
+   } else {
+      document.getElementById("carouselID").innerHTML += `
    <div class="carousel-item active">
       <a href="`+ cards[0].link + `" target="__blank"><img class="d-block w-100" src="img/` + cards[0].img + `.png" alt="First Slide"></a>
       <div class="d-none d-md-block pt-2 carousel-caption-custom">
@@ -60,12 +85,13 @@ window.onload = function () {
       </div>
    </div>
    `;
+   }
 
    cards.forEach(function (element) {
       document.getElementById("card-list").innerHTML += `
       <div class="col-md-4 mt-2" style="` + element.show + `">
          <div class="card">
-            <a href="`+ element.link +`" target="__blank"><img class="card-img-top" src="img/` + element.img + `.png" alt="Card Image"></a>
+            <a href="`+ element.link + `" target="__blank"><img class="card-img-top" src="img/` + element.img + `.png" alt="Card Image"></a>
             <div class="card-body">
                <h5 class="card-title border-bottom pb-3">` + element.title + `</h5>
                <p class="card-text-custom">` + element.description + `</p>

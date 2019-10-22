@@ -3,11 +3,12 @@ window.onload = function () {
    var cards = [
       {
          "title": "Agenda 10/24",
-         "description": "10/24 Agenda",
-         "img": "agendanone",
-         "link": "https://drive.google.com/drive/folders/1JMPmSETWBihRM0-6KlEnV0D9FaqzaQ3I",
+         "description": "",
+         "img": "",
+         "link": "",
          "show": "display: none",
-      }, {
+      }, 
+      {
          "title": "Agenda 10/17",
          "description": "Fee Collection for Contest",
          "img": "agenda1017",
@@ -36,6 +37,18 @@ window.onload = function () {
          "show": "",
       },
    ];
+
+   cards.forEach(function (element) {
+      if(element.img == ""){
+         element.img = "agendanone";
+      }
+      if(element.link == ""){
+         element.link = "https://drive.google.com/drive/folders/1JMPmSETWBihRM0-6KlEnV0D9FaqzaQ3I";
+      }
+      if(element.description == "") {
+         element.description = element.title;
+      }
+   });
 
    if (cards[0].show != "") {
       document.getElementById("carouselID").innerHTML += `

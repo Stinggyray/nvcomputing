@@ -2,8 +2,6 @@
 
 revision and update of http://nvcomputing.com/
 
-v.1 scheduled for release on 10/10/19
-
 From Anton Barchukov and Chris Paolili
 
 

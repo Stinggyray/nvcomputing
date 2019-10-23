@@ -9,13 +9,6 @@ window.onload = function () {
          "show": "display: none",
       }, 
       {
-         "title": "Agenda 10/111",
-         "description": "Fee Collection for Contest",
-         "img": "agenda1017",
-         "link": "https://docs.google.com/presentation/d/1pIx1ggAZQN1aF9r97dwhCinaHcQitX-U296bjy2pSlk/edit#slide=id.g651eec94f2_0_0",
-         "show": "",
-      },
-      {
          "title": "Agenda 10/17",
          "description": "Fee Collection for Contest",
          "img": "agenda1017",

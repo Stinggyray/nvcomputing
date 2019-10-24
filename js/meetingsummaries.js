@@ -2,11 +2,18 @@ window.onload = function () {
    //New Cards Go On Top
    var cards = [
       {
-         "title": "Agenda 10/24",
+         "title": "Agenda 10/31",
          "description": "",
-         "img": "",
+         "img": "agendanone",
          "link": "",
-         "show": "display: none",
+         "show": "none",
+      },
+      {
+         "title": "Agenda 10/24",
+         "description": "Practice, Practice, Practice!",
+         "img": "agenda1024",
+         "link": "https://docs.google.com/presentation/d/1nYXbKczkPRNhWhTvazU1zncR1AaAJrzunw20wwNIl0I/edit#slide=id.g6f5bc50028_0_0",
+         "show": "",
       }, 
       {
          "title": "Agenda 10/17",
@@ -47,6 +54,9 @@ window.onload = function () {
       }
       if(element.description == "") {
          element.description = element.title;
+      }
+      if(element.show == "none") {
+         element.show = "display: none !important;"
       }
    });
 

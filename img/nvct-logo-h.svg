@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1202px" height="127px">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/">
+	<rdf:Description rdf:about="Made by Anton Barchukov. YOU CANNOT USE OR DISTRUBUTE THIS IMAGE">
+		<schema:license rdf:resource="https://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+	</rdf:Description>
+</rdf:RDF>
 <style type="text/css">
 	.st0{fill:#FDCA00;stroke:#FDCA00;stroke-width:8;stroke-miterlimit:10;}
 	.st1{fill:#092A4D;}

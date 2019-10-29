@@ -12,6 +12,53 @@ body {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
+.navbar-wrapper .navbar-custom {
+    max-width: 1200px;
+    margin: 0 auto;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+@media (max-width: 1199px) {
+    .navbar-wrapper .navbar-custom {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-wrapper .navbar-custom {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-wrapper .navbar-custom {
+        position: fixed;
+        top: 0;
+        z-index: 3000;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+        -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+        width: 100%;
+        max-width: 100% !important;
+        transition: auto !important;
+    }
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 3000;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 100% !important;
+    transition: auto !important;
+  }
+
 .navbar-toggler-custom {
     font-size: .7rem !important;
 }

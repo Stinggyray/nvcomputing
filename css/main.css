@@ -58,30 +58,31 @@ body {
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
     width: 100%;
     max-width: 100% !important;
-    -webkit-animation: slide-top 0.3s reverse both;
-    animation: slide-top 0.3s reverse both;
+	-webkit-animation: slide-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) alternate-reverse both;
+	        animation: slide-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) alternate-reverse both;
 }
 
 @-webkit-keyframes slide-top {
     0% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
     }
     100% {
-        -webkit-transform: translateY(-100px);
-        transform: translateY(-100px);
-    }
-    }
-    @keyframes slide-top {
-    0% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-    100% {
-        -webkit-transform: translateY(-100px);
-        transform: translateY(-100px);
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
     }
   }
+  @keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+  }
+  
 
 .navbar-toggler-custom {
     font-size: .7rem !important;

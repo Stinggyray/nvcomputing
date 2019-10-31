@@ -115,7 +115,7 @@ window.onload = function () {
       document.getElementById("card-list").innerHTML += `
       <div class="col-md-4 mt-2" style="` + element.show + `">
          <div class="card">
-            <a href="`+ element.link + `" target="__blank"><img class="card-img-top" src="img/` + element.img + `.png" alt="Card Image"></a>
+            <a href="`+ element.link + `" target="__blank"><img class="card-img-top" src="img/` + element.img + `.png" alt="`+ element.title +`"></a>
             <div class="card-body">
                <h5 class="card-title border-bottom pb-3">` + element.title + `</h5>
                <p class="card-text-custom">` + element.description + `</p>

@@ -163,13 +163,3 @@ body {
 .footer {
     font-size: .8rem;
 }
-
-.banner {
-    width: 100%;
-    display: block;
-}
-
-.banner > .banner-img {
-    width: 100%;
-    display: block;
-}

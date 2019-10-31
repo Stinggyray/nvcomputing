@@ -53,7 +53,8 @@ window.onload = function () {
          element.link = "https://drive.google.com/drive/folders/1JMPmSETWBihRM0-6KlEnV0D9FaqzaQ3I";
       }
       if(element.description == "") {
-         element.description = element.title;
+         var today = new Date();
+         element.description = "Today's Agenda " + (today.getMonth()+1) + "/" + today.getDate();
       }
       if(element.show == "none") {
          element.show = "display: none !important;"

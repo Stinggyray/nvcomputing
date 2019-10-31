@@ -16,46 +16,50 @@ https://github.com/antonbarchukov/antonbarchukov.github.io -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
+   <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
    <link rel="manifest" href="img/site.webmanifest">
+   <script src="js/navscroll.js"></script>
    <title>Neuqua Valley Computing Team | Meeting Summaries</title>
 </head>
 
 <body>
-   <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-dark top-navbar sticky-top navbar-custom" data-toggle="sticky-onscroll">
-      <div class="container">
-         <a class="navbar-brand d-block d-sm-none" id="navbrand" href="index.html"><img src="img/nvct-logo.svg" alt="Neuqua Logo" id="navimg" class="img-fluid"></a>
-         <a class="navbar-brand d-none d-sm-block" id="navbrand" href="index.html"><img src="img/nvct-logo-h.svg" alt="Neuqua Logo" id="navimg" class="img-fluid"></a>
-         <button class="navbar-toggler navbar-toggler-custom" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav pull-right">
-               <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link active" href="meetingsummaries.html">Meeting Summaries</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-               </li>
-            </ul>
-         </div>
+   <div class="background-page">
+      <div class="navbar-wrapper pt-3">
+         <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-dark top-navbar navbar-custom" id="navbar">
+            <div class="container">
+               <a class="navbar-brand d-block d-sm-none" id="navbrand" href="index.html"><img src="img/nvct-logo.svg" alt="Neuqua Logo" id="navimg" class="img-fluid"></a>
+               <a class="navbar-brand d-none d-sm-block" id="navbrand" href="index.html"><img src="img/nvct-logo-h.svg" alt="Neuqua Logo" id="navimg" class="img-fluid"></a>
+               <button class="navbar-toggler navbar-toggler-custom" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                  <ul class="navbar-nav pull-right">
+                     <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link active" href="meetingsummaries.html">Meeting Summaries</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
       </div>
-   </nav>
-   <div class="bg-light">
       <div class="container pt-5">
          <div class="row h-100 align-items-center py-5">
             <div class="col-lg-6 text-center">
-               <h2>Meeting Summaries</h2>
-               <p class="text-muted mb-0">Posted Every Thursday</p>
-               </p>
+                  <h2>Meeting Summaries</h2>
+                  <p class="lead text-muted mb-0">Posted Every Thursday</p>
             </div>
             <div class="col-lg-6 d-none d-md-block">
                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -75,7 +79,7 @@ https://github.com/antonbarchukov/antonbarchukov.github.io -->
                   </a>
                </div>
             </div>
-            <p class="ml-auto mr-2 text-muted mb-0 pt-5 text-right"><a href="https://drive.google.com/drive/folders/1VnV30pX47P6X4BI35q-9JpJggUhWg0o6" target="__blank">Google Drive Folder</a></p>
+            <button type="button" class="btn btn-info btn-sm my-2 mb-0 ml-auto mx-3"><a href="https://drive.google.com/drive/folders/1VnV30pX47P6X4BI35q-9JpJggUhWg0o6" target="__blank" class="text-white" style="text-decoration: none;">Google Drive Folder</a></button>
          </div>
       </div>
    </div>

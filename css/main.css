@@ -92,10 +92,32 @@ body {
 	padding-right: 15px;
 }
 
+#side-menu {
+    margin-top: 55px !important;
+}
+
 .background-code {
     background-image: url(../img/background-carousel.png);
     background-size: contain;
     background-position: center;
+}
+
+.background-page {
+    background-image: url(../img/background-page.png);
+    background-size: contain;
+    background-position: center;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    background: #cccccc !important;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span{
+    background: #3a82db !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #2f629c !important;
 }
 
 .large-image {

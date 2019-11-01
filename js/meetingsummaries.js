@@ -3,10 +3,10 @@ window.onload = function () {
    var cards = [
       {
          "title": "Agenda 10/31",
-         "description": "",
+         "description": "Happy Halloween!",
          "img": "agendanone",
-         "link": "",
-         "show": "none",
+         "link": "https://docs.google.com/presentation/d/1L279-PChPT2HgKsvQ5mDZQZtlRdsjb45gtBsddtrsv0/edit#slide=id.g6f5bc50028_0_0",
+         "show": "",
       },
       {
          "title": "Agenda 10/24",

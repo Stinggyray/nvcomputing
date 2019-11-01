@@ -4,7 +4,7 @@ window.onload = function () {
       {
          "title": "Agenda 10/31",
          "description": "Happy Halloween!",
-         "img": "agendanone",
+         "img": "agenda1031",
          "link": "https://docs.google.com/presentation/d/1L279-PChPT2HgKsvQ5mDZQZtlRdsjb45gtBsddtrsv0/edit#slide=id.g6f5bc50028_0_0",
          "show": "",
       },

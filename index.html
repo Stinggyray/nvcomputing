@@ -28,6 +28,7 @@ https://github.com/antonbarchukov/antonbarchukov.github.io -->
    <link rel="manifest" href="img/site.webmanifest">
    <script src="js/navscroll.js"></script>
    <script src="js/carousel_custom.js"></script>
+   <script src="js/urlformat.js?version=1.00"></script>
    <title>Neuqua Valley Computing Team | Home Page</title>
 </head>
 
@@ -36,24 +37,24 @@ https://github.com/antonbarchukov/antonbarchukov.github.io -->
       <div class="navbar-wrapper pt-3">
          <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-dark top-navbar navbar-custom" id="navbar">
             <div class="container">
-               <a class="navbar-brand d-block d-sm-none" id="navbrand" href="index.html"><img src="img/nvct-logo.svg" alt="Neuqua Logo" id="navimg" class="img-fluid"></a>
-               <a class="navbar-brand d-none d-sm-block" id="navbrand" href="index.html"><img src="img/nvct-logo-h.svg" alt="Neuqua Logo" id="navimg" class="img-fluid"></a>
+               <a class="navbar-brand d-block d-sm-none" id="navimgref-sm"><img src="img/nvct-logo.svg" alt="Neuqua Logo" id="navimg" class="img-fluid"></a>
+               <a class="navbar-brand d-none d-sm-block" id="navimgref-lg"><img src="img/nvct-logo-h.svg" alt="Neuqua Logo" id="navimg" class="img-fluid"></a>
                <button class="navbar-toggler navbar-toggler-custom" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                </button>
                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                   <ul class="navbar-nav pull-right">
                      <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link active" id="homeref">Home</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" id="aboutref">About</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="meetingsummaries.html">Meeting Summaries</a>
+                        <a class="nav-link" id="meetingsummariesref">Meeting Summaries</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" id="contactref">Contact</a>
                      </li>
                   </ul>
                </div>
@@ -107,7 +108,7 @@ https://github.com/antonbarchukov/antonbarchukov.github.io -->
       </div>
    </div>
    <div class="container bg-white py-5 text-center">
-      <a href="about.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Ready to begin?</a>
+      <a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" id="beginbuttonref">Ready to begin?</a>
    </div>
    <div class="footer bg-white">
       <div class="text-center text-muted">&copy;2019 Copyright: <a href="/"> NVComputing.com</a></div>

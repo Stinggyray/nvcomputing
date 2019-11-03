@@ -172,7 +172,7 @@ function urlRewrite() {
         document.getElementById("contactref").setAttribute("href", "contact");
         //Other Items
         if (document.getElementById("beginbuttonref") != null) {
-            document.getElementById("beginbuttonref").setAttribute("href", "contact");
+            document.getElementById("beginbuttonref").setAttribute("href", "about");
         }
         if (document.getElementById("contactinforef") != null) {
             document.getElementById("contactinforef").setAttribute("href", "contact");

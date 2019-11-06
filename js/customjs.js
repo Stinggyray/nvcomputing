@@ -1,11 +1,8 @@
 //Anton Barchukov
 
-window.onscroll = function () {
-    navScroll();
-};
-
 window.onload = function () {
     this.urlRewrite();
+    this.navScroll();
     if (document.getElementById("carouselID") != null && document.getElementById("card-list") != null) {
         this.agenda();
     }

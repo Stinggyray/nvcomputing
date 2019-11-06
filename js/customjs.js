@@ -1,8 +1,8 @@
 //Anton Barchukov
 
-window.onscroll = function() {
-    this.navScroll();
-}
+window.onscroll = function () {
+    navScroll();
+};
 
 window.onload = function () {
     this.urlRewrite();

@@ -30,8 +30,8 @@ function agenda() {
     var cards = [
         {
             "title": "Agenda 11/7",
-            "description": "",
-            "img": "",
+            "description": "ArrayList Practice",
+            "img": "agenda1024", //same image
             "link": "https://docs.google.com/presentation/d/1AqaTBw7ehM5uvPuY8MbrHNL_X2eOjJV8sHrWaFqN_cI/",
             "show": "",
         },

@@ -22,6 +22,7 @@ https://github.com/antonbarchukov/antonbarchukov.github.io -->
    <script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" data-auto-a11y="true"></script>
    <link rel="manifest" href="img/site.webmanifest">
    <script src="js/customjs.js?version=1.06"></script>
+   <script src="https://www.google.com/recaptcha/api.js?render=6Les68EUAAAAAFV0TB4fn8McNv-8ezoXlmXBCi17"></script>
    <title>Neuqua Valley Computing Team | Contact Page</title>
 </head>
 
@@ -84,7 +85,7 @@ https://github.com/antonbarchukov/antonbarchukov.github.io -->
                   <div class="w-100">
                      <h2 class="font-weight-light display-5 text-center">Contact Form</h2>
                      <h5 class="text-center text-success"></h5>
-                     <form id="form-box" class="p-2">
+                     <form id="form-box" class="p-2" enctype="multipart/form-data" accept-charset="UTF-8">
                         <div class="form-group input-group">
                            <div class="input-group-prepend">
                               <span class="input-group-text"><i class="fas fa-user"></i></span>
@@ -110,6 +111,7 @@ https://github.com/antonbarchukov/antonbarchukov.github.io -->
                            <textarea name="message" id="message" class="form-control" placeholder="Write your message" cols="30" rows="4" required></textarea>
                         </div>
                         <div class="form-group">
+                           <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
                            <input type="submit" name="submit" id="submit" class="btn btn-primary btn-block" value="Send" />
                         </div>
                         <div class="alert alert-success text-left" role="alert" id="thankyouBlock" style="display: none !important;">
@@ -156,17 +158,22 @@ https://github.com/antonbarchukov/antonbarchukov.github.io -->
             }
          });
       });
-   });	
+   });
+   grecaptcha.ready(function () {
+      grecaptcha.execute("6Les68EUAAAAAFV0TB4fn8McNv-8ezoXlmXBCi17", { action: "homepage" })
+         .then(function (token) {
+            document.getElementById('captchaResponse').value = token;
+         });
+   });
 </script>
-
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151406860-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+   window.dataLayer = window.dataLayer || [];
+   function gtag() { dataLayer.push(arguments); }
+   gtag('js', new Date());
 
-  gtag('config', 'UA-151406860-1');
+   gtag('config', 'UA-151406860-1');
 </script>
 
 </html>

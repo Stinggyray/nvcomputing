@@ -29,6 +29,13 @@ function agenda() {
     //New Cards Go On Top
     var cards = [
         {
+            "title": "Agenda 11/21",
+            "description": "MSOE Competition",
+            "img": "",
+            "link": "",
+            "show": "none",
+        },
+        {
             "title": "Agenda 11/14",
             "description": "Computer Number Systems",
             "img": "",

@@ -29,6 +29,13 @@ function agenda() {
     //New Cards Go On Top
     var cards = [
         {
+            "title": "Agenda 11/14",
+            "description": "Computer Number Systems",
+            "img": "",
+            "link": "https://docs.google.com/presentation/d/1jiak1NpmuSD4k4votU-67mJtgWjQT0TkzMG2oScYCEc/",
+            "show": "",
+        },
+        {
             "title": "Agenda 11/7",
             "description": "ArrayList Practice",
             "img": "agenda1024", //same image
@@ -78,7 +85,7 @@ function agenda() {
             "show": "",
         },
     ];
-
+    
     cards.forEach(function (element) {
         if (element.img == "") {
             element.img = "agendanone";

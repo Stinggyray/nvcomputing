@@ -22,7 +22,6 @@ https://github.com/antonbarchukov/antonbarchukov.github.io -->
    <script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" data-auto-a11y="true"></script>
    <link rel="manifest" href="img/site.webmanifest">
    <script src="js/customjs.js?version=1.07"></script>
-   <script src="https://www.google.com/recaptcha/api.js?render=6Les68EUAAAAAFV0TB4fn8McNv-8ezoXlmXBCi17"></script>
    <title>Neuqua Valley Computing Team | Contact Page</title>
 </head>
 
@@ -111,7 +110,6 @@ https://github.com/antonbarchukov/antonbarchukov.github.io -->
                            <textarea name="message" id="message" class="form-control" placeholder="Write your message" cols="30" rows="4" required></textarea>
                         </div>
                         <div class="form-group">
-                           <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
                            <input type="submit" name="submit" id="submit" class="btn btn-primary btn-block" value="Send" />
                         </div>
                         <div class="alert alert-success text-left" role="alert" id="thankyouBlock" style="display: none !important;">
@@ -130,41 +128,33 @@ https://github.com/antonbarchukov/antonbarchukov.github.io -->
       </div>
 </body>
 <script>
-   //    $(document).ready(function () {
-   //       $("#closethankyou").click(function () {
-   //          $("#thankyouBlock").remove();
-   //       });
-   //       $('#form-box').on('submit', function (e) {
-   //          e.preventDefault();
-   //          var name = $('#name').val();
-   //          var email = $('#email').val();
-   //          var comments = $('#message').val();
-   //          var subject = $('#subject').val();
-   //          var captchaResponse = grecaptcha.getResponse();
-   //          $.ajax({
-   //             url: 'https://formcarry.com/s/BiaxWODYE5S',
-   //             method: 'POST',
-   //             data: {
-   //                name: name,
-   //                email: email,
-   //                subject: subject,
-   //                comments: comments,
-   //                captchaResponse: captchaResponse,
-   //             },
-   //             dataType: "json",
-   //             success: function () {
-   //                console.log('success');
-   //                $('#thankyouBlock').show();
-   //             }
-   //          });
-   //       });
-   //    });
-   grecaptcha.ready(function () {
-      grecaptcha.execute("6LeRL8IUAAAAAMkHajFtlSvqQRUEz6VksCNPh4bz", { action: "homepage" })
-         .then(function (token) {
-            document.getElementById('captchaResponse').value = token;
+      $(document).ready(function () {
+         $("#closethankyou").click(function () {
+            $("#thankyouBlock").remove();
          });
-   });
+         $('#form-box').on('submit', function (e) {
+            e.preventDefault();
+            var name = $('#name').val();
+            var email = $('#email').val();
+            var comments = $('#message').val();
+            var subject = $('#subject').val();
+            $.ajax({
+               url: 'https://formcarry.com/s/BiaxWODYE5S',
+               method: 'POST',
+               data: {
+                  name: name,
+                  email: email,
+                  subject: subject,
+                  comments: comments,
+               },
+               dataType: "json",
+               success: function () {
+                  console.log('success');
+                  $('#thankyouBlock').show();
+               }
+            });
+         });
+      });
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151406860-1"></script>

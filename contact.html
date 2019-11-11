@@ -142,7 +142,7 @@ https://github.com/antonbarchukov/antonbarchukov.github.io -->
          var email = $('#email').val();
          var comments = $('#message').val();
          var subject = $('#subject').val();
-         var captchaResponse = $('#captchaResponse').val();
+         var captchaResponse = grecaptcha.getResponse();
          $.ajax({
             url: 'https://formcarry.com/s/BiaxWODYE5S',
             method: 'POST',

@@ -85,7 +85,7 @@ https://github.com/antonbarchukov/antonbarchukov.github.io -->
                   <div class="w-100">
                      <h2 class="font-weight-light display-5 text-center">Contact Form</h2>
                      <h5 class="text-center text-success"></h5>
-                     <form id="form-box" class="p-2" action="https://formcarry.com/s/BiaxWODYE5S" method="POST" enctype="multipart/form-data" accept-charset="UTF-8">
+                     <form id="form-box" class="p-2" enctype="multipart/form-data" accept-charset="UTF-8">
                         <div class="form-group input-group">
                            <div class="input-group-prepend">
                               <span class="input-group-text"><i class="fas fa-user"></i></span>
@@ -130,35 +130,37 @@ https://github.com/antonbarchukov/antonbarchukov.github.io -->
       </div>
 </body>
 <script>
-   // $(document).ready(function () {
+   $(document).ready(function () {
 
-   //    $("#closethankyou").click(function () {
-   //       $("#thankyouBlock").remove();
-   //    });
+      $("#closethankyou").click(function () {
+         $("#thankyouBlock").remove();
+      });
 
-   //    $('#form-box').on('submit', function (e) {
-   //       e.preventDefault();
-   //       var name = $('#name').val();
-   //       var email = $('#email').val();
-   //       var comments = $('#message').val();
-   //       var subject = $('#subject').val();
-   //       $.ajax({
-   //          url: 'https://formcarry.com/s/BiaxWODYE5S',
-   //          method: 'POST',
-   //          data: {
-   //             name: name,
-   //             email: email,
-   //             subject: subject,
-   //             comments: comments,
-   //          },
-   //          dataType: "json",
-   //          success: function () {
-   //             console.log('success');
-   //             $('#thankyouBlock').show();
-   //          }
-   //       });
-   //    });
-   // });
+      $('#form-box').on('submit', function (e) {
+         e.preventDefault();
+         var name = $('#name').val();
+         var email = $('#email').val();
+         var comments = $('#message').val();
+         var subject = $('#subject').val();
+         var captchaResponse = $('#captchaResponse').val();
+         $.ajax({
+            url: 'https://formcarry.com/s/BiaxWODYE5S',
+            method: 'POST',
+            data: {
+               name: name,
+               email: email,
+               subject: subject,
+               comments: comments,
+               captchaResponse: captchaResponse,
+            },
+            dataType: "json",
+            success: function () {
+               console.log('success');
+               $('#thankyouBlock').show();
+            }
+         });
+      });
+   });
    grecaptcha.ready(function () {
       grecaptcha.execute("6Les68EUAAAAAFV0TB4fn8McNv-8ezoXlmXBCi17", { action: "homepage" })
          .then(function (token) {

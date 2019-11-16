@@ -38,7 +38,7 @@ function agenda() {
         {
             "title": "Agenda 11/14",
             "description": "Computer Number Systems",
-            "img": "",
+            "img": "agenda1114",
             "link": "https://docs.google.com/presentation/d/1jiak1NpmuSD4k4votU-67mJtgWjQT0TkzMG2oScYCEc/",
             "show": "",
         },
@@ -66,7 +66,7 @@ function agenda() {
         {
             "title": "Agenda 10/17",
             "description": "Fee Collection for Contest",
-            "img": "agenda1017",
+            "img": "agenda926", //same image as 926
             "link": "https://docs.google.com/presentation/d/1pIx1ggAZQN1aF9r97dwhCinaHcQitX-U296bjy2pSlk/",
             "show": "",
         },
@@ -80,7 +80,7 @@ function agenda() {
         {
             "title": "Agenda 9/19",
             "description": "Registration and ACSL Team",
-            "img": "agenda919",
+            "img": "agenda912", //same image as 912
             "link": "https://docs.google.com/presentation/d/1ZhoPvxPNKG2ctBEypKe5vpPQImJ-JNB6sBaPbIFoxp8/",
             "show": "",
         },

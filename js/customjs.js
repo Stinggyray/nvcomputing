@@ -38,7 +38,7 @@ function agenda() {
         {
             "title": "Agenda 11/14",
             "description": "Computer Number Systems",
-            "img": "",
+            "img": "agenda1114",
             "link": "https://docs.google.com/presentation/d/1jiak1NpmuSD4k4votU-67mJtgWjQT0TkzMG2oScYCEc/",
             "show": "",
         },

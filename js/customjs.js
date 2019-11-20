@@ -30,7 +30,7 @@ function agenda() {
     var cards = [
         {
             "title": "No Meeting 11/21",
-            "description": "No Meeting Today",
+            "description": "No Meeting 11/21",
             "img": "nomeet",
             "link": "",
             "show": "",

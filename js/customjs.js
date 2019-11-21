@@ -29,13 +29,6 @@ function agenda() {
     //New Cards Go On Top
     var cards = [
         {
-            "title": "No Meeting 11/21",
-            "description": "No Meeting 11/21",
-            "img": "nomeet",
-            "link": "",
-            "show": "",
-        },
-        {
             "title": "Agenda 11/14",
             "description": "Computer Number Systems",
             "img": "agenda1114",

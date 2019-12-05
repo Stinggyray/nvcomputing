@@ -29,6 +29,13 @@ function agenda() {
     //New Cards Go On Top
     var cards = [
         {
+            "title": "Agenda 12/5",
+            "description": "",
+            "img": "",
+            "link": "https://docs.google.com/presentation/d/1YsrvSt0GDoGEx1wZHtn2zt5QNuvtrFf8lFl50w8S6nc/",
+            "show": "",
+        },
+        {
             "title": "Agenda 11/14",
             "description": "Computer Number Systems",
             "img": "agenda1114",

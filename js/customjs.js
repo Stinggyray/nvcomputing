@@ -30,8 +30,8 @@ function agenda() {
     var cards = [
         {
             "title": "Agenda 12/5",
-            "description": "",
-            "img": "",
+            "description": "Recursion Practice",
+            "img": "agenda1205",
             "link": "https://docs.google.com/presentation/d/1YsrvSt0GDoGEx1wZHtn2zt5QNuvtrFf8lFl50w8S6nc/",
             "show": "",
         },

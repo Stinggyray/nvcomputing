@@ -28,23 +28,9 @@ function navScroll() {
 function agenda() {
     //New Cards Go On Top
     var cards = [
-         {
-            "title": "Agenda 12/12",
-            "description": "",
-            "img": "",
-            "link": "https://docs.google.com/presentation/d/1YsrvSt0GDoGEx1wZHtn2zt5QNuvtrFf8lFl50w8S6nc/edit#slide=id.g7a9482442f_0_67",
-            "show": "",
-        },
-        {
-            "title": "Agenda 12/12",
-            "description": "Short Answer Competition",
-            "img": "",
-            "link": "",
-            "show": "none",
-        },
         {
             "title": "Agenda 12/5",
-            "description": "Recursion Practice",
+            "description": "Short Answer Practice",
             "img": "agenda1205",
             "link": "https://docs.google.com/presentation/d/1YsrvSt0GDoGEx1wZHtn2zt5QNuvtrFf8lFl50w8S6nc/",
             "show": "",

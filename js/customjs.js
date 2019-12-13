@@ -29,6 +29,13 @@ function agenda() {
     //New Cards Go On Top
     var cards = [
         {
+            "title": "Agenda 12/12",
+            "description": "Short Answer Competition",
+            "img": "",
+            "link": "",
+            "show": "none",
+        },
+        {
             "title": "Agenda 12/5",
             "description": "Recursion Practice",
             "img": "agenda1205",
@@ -104,7 +111,7 @@ function agenda() {
             var today = new Date();
             element.description = "Latest Agenda";
         }
-        if (element.show == "none") {
+        if (element.show != "") {
             element.show = "display: none !important;"
         }
     });

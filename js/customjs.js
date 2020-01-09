@@ -34,7 +34,8 @@ function agenda() {
             "img": "",
             "link": "https://docs.google.com/presentation/d/1A22RWND7cZupfLUT2pj7zA_szOaVkeFw3a9YXPfqewQ/",
             "show": "",
-        },        {
+        }, 
+        {
             "title": "Agenda 12/5",
             "description": "Short Answer Practice",
             "img": "agenda1205",

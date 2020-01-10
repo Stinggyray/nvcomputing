@@ -31,7 +31,7 @@ function agenda() {
         {
             "title": "Agenda 1/9",
             "description": "Bit-String Flicking",
-            "img": "",
+            "img": "agenda19",
             "link": "https://docs.google.com/presentation/d/1A22RWND7cZupfLUT2pj7zA_szOaVkeFw3a9YXPfqewQ/",
             "show": "",
         }, 

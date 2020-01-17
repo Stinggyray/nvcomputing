@@ -31,7 +31,7 @@ function agenda() {
         {
             "title": "Agenda 1/16",
             "description": "Pre-fix/In-fix/Post-fix Notation",
-            "img": "",
+            "img": "agenda116",
             "link": "https://docs.google.com/presentation/d/1SHTwNv2nw2fNBbM3sGG2Ny8vYHskap3NXILlJ5mykoI/",
             "show": "",
         }, 

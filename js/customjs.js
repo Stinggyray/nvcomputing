@@ -28,6 +28,13 @@ function navScroll() {
 function agenda() {
     //New Cards Go On Top
     var cards = [
+         {
+            "title": "Agenda 1/23",
+            "description": "LISP",
+            "img": "",
+            "link": "https://docs.google.com/presentation/d/1N5v8Umz1VxszmMjQmnsaPPtpXPpUs5qyRP-tbPUrmp4/",
+            "show": "",
+        }, 
         {
             "title": "Agenda 1/16",
             "description": "Pre-fix/In-fix/Post-fix Notation",

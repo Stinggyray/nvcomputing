@@ -30,8 +30,8 @@ function agenda() {
     var cards = [
          {
             "title": "Agenda 1/23",
-            "description": "LISP",
-            "img": "",
+            "description": "List Processing Language",
+            "img": "agenda123",
             "link": "https://docs.google.com/presentation/d/1N5v8Umz1VxszmMjQmnsaPPtpXPpUs5qyRP-tbPUrmp4/",
             "show": "",
         }, 

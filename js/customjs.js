@@ -29,6 +29,13 @@ function agenda() {
     //New Cards Go On Top
     var cards = [
          {
+             "title": "Agenda 1/30",
+             "description": "",
+             "img": "",
+             "link": "",
+             "show": "",
+         },
+         {
             "title": "Agenda 1/23",
             "description": "List Processing Language",
             "img": "agenda123",

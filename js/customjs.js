@@ -29,6 +29,13 @@ function agenda() {
     //New Cards Go On Top
     var cards = [
          {
+            "title": "Agenda 2/20",
+            "description": "ProCom Check-In",
+            "img": "",
+            "link": "https://docs.google.com/presentation/d/1z6WyAHx7AExBFo2W8fLttfUEl4Zzx6z3JMnYHFEBpRs/",
+            "show": "",
+         }, 
+         {
             "title": "Agenda 1/23",
             "description": "List Processing Language",
             "img": "agenda123",

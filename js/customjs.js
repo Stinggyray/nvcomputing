@@ -38,7 +38,7 @@ function agenda() {
          {
             "title": "Agenda 2/20",
             "description": "ProCom Check-In",
-            "img": "",
+            "img": "agenda220",
             "link": "https://docs.google.com/presentation/d/1z6WyAHx7AExBFo2W8fLttfUEl4Zzx6z3JMnYHFEBpRs/",
             "show": "",
          }, 

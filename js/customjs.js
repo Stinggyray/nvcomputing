@@ -31,7 +31,7 @@ function agenda() {
           {
             "title": "Agenda 3/5",
             "description": "",
-            "img": "",
+            "img": "agenda35",
             "link": "https://docs.google.com/presentation/d/1hogqDJN_5mTzTrFMTVX4JdRHlQxV_jPulWBRo0Sk4zE/",
             "show": "",
          }, 

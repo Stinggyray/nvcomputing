@@ -28,6 +28,13 @@ function navScroll() {
 function agenda() {
     //New Cards Go On Top
     var cards = [
+          {
+            "title": "Agenda 3/5",
+            "description": "",
+            "img": "",
+            "link": "https://docs.google.com/presentation/d/1hogqDJN_5mTzTrFMTVX4JdRHlQxV_jPulWBRo0Sk4zE/",
+            "show": "",
+         }, 
          {
             "title": "Agenda 2/20",
             "description": "ProCom Check-In",

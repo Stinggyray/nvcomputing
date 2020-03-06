@@ -2,7 +2,7 @@
 
 revision and update of https://nvcomputing.com/
 
-From Anton Barchukov and Chris Paolili
+From Anton Barchukov
 
 
 Enjoy!

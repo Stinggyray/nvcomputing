@@ -30,7 +30,7 @@ function agenda() {
     var cards = [
           {
             "title": "Agenda 3/5",
-            "description": "",
+            "description": "New ACSL Topics",
             "img": "agenda35",
             "link": "https://docs.google.com/presentation/d/1hogqDJN_5mTzTrFMTVX4JdRHlQxV_jPulWBRo0Sk4zE/",
             "show": "",
